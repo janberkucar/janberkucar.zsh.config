@@ -123,18 +123,19 @@ alias supd="sudo apt-get update"
 alias supg="sudo apt-get upgrade"
 
 # Directory aliases.
-alias pntd="cd Desktop/Panates"
-alias emrw="cd Emr_Workspace/emr-workspace"
-alias pnte="cd Desktop/Panates/Emr_Workspace/emr-workspace"
-alias rprt="cd Desktop/Local_Projects/Report_Tool"
-alias rprb="cd Stimulsoft_Report_For_Panates/Stimulsoft_Report_For_Panates_3"
-alias pntr="cd Desktop/Local_Projects/Emr_Reporting/emr-reporting"
+alias frmt="cd Desktop/Frumatic"
+alias vtpf="cd Desktop/Frumatic/vtp-frontend"
+alias vtpb="cd Desktop/Frumatic/vtp_backend"
+alias lcal="cd Desktop/Local_Projects"
 
 # Git aliases.
 alias gfod="git fetch origin dev"
+alias gfom="git fetch origin main"
 alias gpod="git pull origin dev"
+alias gpom="git pull origin main"
 alias gchp="git checkout -"
 alias gchd="git checkout dev"
+alias gchm="git checkout main"
 alias gadd="git add ."
 alias gcmt="git commit"
 alias gpsh="git push"
@@ -157,7 +158,7 @@ alias ngs2="ng serve --port 4202"
 
 # Upon startup.
 neofetch
-source /home/panates-janberk/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/bibob-frumatic/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Heap memory fix.
 export NODE_OPTIONS=--max_old_space_size=8192

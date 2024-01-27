@@ -106,34 +106,34 @@ source $ZSH/oh-my-zsh.sh
 ### Custom Aliases. =============================================
 
 ## Personal GitHub Aliases.
-alias jnbk="cd Desktop/Codebase/JanberkUcar ls"
+alias jnbk="cd Desktop/Codebase/JanberkUcar && ls"
 alias jnbh="cd Desktop/Codebase/JanberkUcar/hyperledger.cello.starter"
-alias jnbn="cd Desktop/Codebase/JanberkUcar/janberk.ucar.nvim.config"
-alias jnbz="cd Desktop/Codebase/JanberkUcar/janberk.ucar.zsh.config"
-alias jnbj="cd Desktop/Codebase/JanberkUcar/j8Call.communication"
+alias jnbn="cd Desktop/Codebase/JanberkUcar/janberkucar.nvim.config"
+alias jnbz="cd Desktop/Codebase/JanberkUcar/janberkucar.zsh.config"
+alias jnbj="cd Desktop/Codebase/JanberkUcar/js8Call.communication"
 alias jnbp="cd Desktop/Codebase/JanberkUcar/piton.technology.case.app"
-alias jnbr="cd Desktop/Codebase/JanberkUcar/vodoapp-case-study"
+alias jnbr="cd Desktop/Codebase/JanberkUcar/vocoapp-case-study"
 
 ## Jxion Aliases.
-alias jxin="cd Desktop/Codebase/Jxion ls"
+alias jxin="cd Desktop/Codebase/Jxion && ls"
 alias jxiw="cd Desktop/Codebase/Jxion/jxion-web"
 alias jxia="cd Desktop/Codebase/Jxion/jxion-app"
 
 ## Ustad Aliases.
-alias ustd="cd Desktop/Codebase/UstadSoftware ls"
+alias ustd="cd Desktop/Codebase/UstadSoftware && ls"
 alias ustu="cd Desktop/Codebase/UstadSoftware/ustadv4"
 
 ## Tabim Aliases
-alias tabm="cd Desktop/Codebase/Tabim ls"
+alias tabm="cd Desktop/Codebase/Tabim && ls"
 
 ## OctaSys Aliases.
-alias octs="cd Desktop/Codebase/OctaSys ls"
+alias octs="cd Desktop/Codebase/OctaSys && ls"
 alias octa="cd Desktop/Codebase/OctaSys/atom-svelte-source"
 alias octm="cd Desktop/Codebase/OctaSys/magicai"
 alias octf="cd Desktop/Codebase/OctaSys/magicaiapp" 
 
 ## Vavacars Aliases.
-alias vvcr="cd Desktop/Codebase/Vavacars ls"
+alias vvcr="cd Desktop/Codebase/Vavacars && ls"
 alias vvcf="cd Desktop/Codebase/Vavacars/B2C.WebUI"
 alias vvct="cd Desktop/Codebase/Vavacars/dtc-automation"
 alias vvce="cd Desktop/Codebase/Vavacars/EnzoAdmin"
@@ -142,12 +142,12 @@ alias vvco="cd Desktop/Codebase/Vavacars/B2C.OrdersAPI"
 alias vvcc="cd Desktop/Codebase/Vavacars/B2C.CustomersAPI"
 
 ## Frumatic Aliases.
-alias frmt="cd Desktop/Frumatic ls"
-alias vtpf="cd Desktop/Frumatic/vtp-frontend"
-alias vtpb="cd Desktop/Frumatic/vtp_backend"
+alias frmt="cd Desktop/Codebase/Frumatic && ls"
+alias vtpf="cd Desktop/Codebase/Frumatic/vtp-frontend"
+alias vtpb="cd Desktop/Codebase/Frumatic/vtp_backend"
 
 ## Local Project Aliases.
-alias lcal="cd Desktop/LocalProjects ls"
+alias lcal="cd Desktop/Codebase/LocalProjects && ls"
 
 # Git aliases.
 alias gfod="git fetch origin dev"
@@ -210,4 +210,3 @@ export NODE_OPTIONS=--max_old_space_size=8192
 #  ├─┤│ │ │ │ │  └─┐ │ ├─┤├┬┘ │ 
 #  ┴ ┴└─┘ ┴ └─┘  └─┘ ┴ ┴ ┴┴└─ ┴ 
 neofetch
-source /home/bibob-frumatic/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

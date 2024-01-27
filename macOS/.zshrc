@@ -201,7 +201,6 @@ export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 export PATH="$JAVA_HOME/bin:$PATH"
 
 # ChatGPT
-source "$HOME/.openai_key.zsh"
 
 ## Heap memory fix.
 export NODE_OPTIONS=--max_old_space_size=8192

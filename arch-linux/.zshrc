@@ -122,6 +122,14 @@ alias ll='lsd -la --group-directories-first'
 
 ### Custom Aliases. =============================================
 
+## Bitbuildr Aliases.
+alias btbl="cd Desktop/Codebase/Bitbuildr && ls"
+
+## Frumatic Aliases.
+alias frmt="cd Desktop/Codebase/Frumatic && ls"
+alias vtpf="cd Desktop/Codebase/Frumatic/vtp-frontend"
+alias vtpb="cd Desktop/Codebase/Frumatic/vtp_backend"
+
 ## Personal GitHub Aliases.
 alias jnbk="cd Desktop/Codebase/JanberkUcar && ls"
 alias jnbh="cd Desktop/Codebase/JanberkUcar/hyperledger.cello.starter"
@@ -136,18 +144,40 @@ alias jxin="cd Desktop/Codebase/Jxion && ls"
 alias jxiw="cd Desktop/Codebase/Jxion/jxion-web"
 alias jxia="cd Desktop/Codebase/Jxion/jxion-app"
 
-## Ustad Aliases.
-alias ustd="cd Desktop/Codebase/UstadSoftware && ls"
-alias ustu="cd Desktop/Codebase/UstadSoftware/ustadv4"
+## Local Project Aliases.
+alias lcal="cd Desktop/Codebase/LocalProjects && ls"
+alias lcaa="cd Desktop/Codebase/LocalProjects/Android"
+alias lcaf="cd Desktop/Codebase/LocalProjects/Angular"
+alias lcac="cd Desktop/Codebase/LocalProjects/C"
+alias lcaf="cd Desktop/Codebase/LocalProjects/Flutter"
+alias lcan="cd Desktop/Codebase/LocalProjects/Nextjs"
+alias lcao="cd Desktop/Codebase/LocalProjects/Nodejs"
+alias lcar="cd Desktop/Codebase/LocalProjects/React"
+alias lcat="cd Desktop/Codebase/LocalProjects/test"
+alias lcav="cd Desktop/Codebase/LocalProjects/Vue"
 
-## Tabim Aliases
-alias tabm="cd Desktop/Codebase/Tabim && ls"
+## Luxoft Aliases.
+alias lxft="cd Desktop/Codebase/Luxoft/data-management && ls"
+alias lxff="cd Desktop/Codebase/Luxoft/data-management/ad-labeling-frontend"
+alias lxfb="cd Desktop/Codebase/Luxoft/data-management/ad-labeleing"
 
 ## OctaSys Aliases.
 alias octs="cd Desktop/Codebase/OctaSys && ls"
 alias octa="cd Desktop/Codebase/OctaSys/atom-svelte-source"
 alias octm="cd Desktop/Codebase/OctaSys/magicai"
 alias octf="cd Desktop/Codebase/OctaSys/magicaiapp" 
+
+## Tabim Aliases
+alias tabm="cd Desktop/Codebase/Tabim && ls"
+
+## TRK Aliases.
+alias trk="cd Desktop/Codebase/Trk && ls"
+
+## Ustad Aliases.
+alias ustd="cd Desktop/Codebase/UstadSoftware && ls"
+alias ustf="cd Desktop/Codebase/UstadSoftware/UstadFrontend && ls"
+alias ustb="cd Desktop/Codebase/UstadSoftware/UstadBackend && ls"
+alias ustm="cd Desktop/Codebase/UstadSoftware/UstadBackend/ustadbackend-microservice"
 
 ## Vavacars Aliases.
 alias vvcr="cd Desktop/Codebase/Vavacars && ls"
@@ -158,13 +188,8 @@ alias vvca="cd Desktop/Codebase/Vavacars/B2C.AppointmentAPI"
 alias vvco="cd Desktop/Codebase/Vavacars/B2C.OrdersAPI"
 alias vvcc="cd Desktop/Codebase/Vavacars/B2C.CustomersAPI"
 
-## Frumatic Aliases.
-alias frmt="cd Desktop/Codebase/Frumatic && ls"
-alias vtpf="cd Desktop/Codebase/Frumatic/vtp-frontend"
-alias vtpb="cd Desktop/Codebase/Frumatic/vtp_backend"
-
-## Local Project Aliases.
-alias lcal="cd Desktop/Codebase/LocalProjects && ls"
+## Wisersense Aliases.
+alias wsrs="cd Desktop/Codebase/Wisersense && ls"
 
 ## Git aliases.
 alias gfod="git fetch origin develop"
@@ -178,8 +203,15 @@ alias gadd="git add ."
 alias gcmt="git commit --amend --no-edit"
 alias gpsh="git push"
 
+# IDE aliases.
+alias vscd="code ."
+alias wbst="open-ide webstorm"
+
 ## NPM aliases.
 alias npms="npm run start"
+alias npmd="npm run start:dev"
+alias npmr="npm run serve"
+alias npmt="npm run test"
 alias npmi="npm install"
 alias npml="npm install --legacy-peer-deps"
 
@@ -216,6 +248,9 @@ export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 # Java_HOME
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 export PATH="$JAVA_HOME/bin:$PATH"
+
+# Android Fix.
+export ANDROID_SDK=/opt/android-sdk
 
 # ChatGPT
 source "$HOME/.openai_key.zsh"
